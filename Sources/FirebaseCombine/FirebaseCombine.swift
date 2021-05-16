@@ -1,3 +1,7 @@
-struct FirebaseCombine {
-    var text = "Hello, World!"
+import Firebase
+
+public struct FirebaseCombine {
+    public func initialize() {
+        FirebaseApp.configure()
+    }
 }
